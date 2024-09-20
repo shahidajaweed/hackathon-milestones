@@ -1,0 +1,77 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #3c7dcc;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(6, 6, 73);
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #2860a5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px  rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid rgb(234, 222, 222);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(233, 229, 229);
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(6, 6, 73);
+}
+
+input,textarea {
+    width: calc(100% - 20px );
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid rgb(182, 159, 159);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+display: block;
+width: 100%;
+padding: 10px;
+background-color: rgb(79, 79, 141);
+color: black;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+margin-top: 10px;
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+button:hover {
+    background-color: rgb(110, 110, 242);
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(156, 199, 216);
+}
+
+p {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
